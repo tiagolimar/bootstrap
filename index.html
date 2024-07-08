@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="container border border-dark shadow mt-4 rounded rounded-4">
+    <!-- <div class="container border border-dark shadow mt-4 rounded rounded-4">
         <h1 class="text-center mt-2 text-primary" >Relação de Pessoas</h1>
         <table class="table table-striped">
             <thead>
@@ -47,7 +47,52 @@
                 </tr>
             </tbody>
         </table>
-    </div>
+    </div> -->
 
+    <form class="d-flex flex-column container mt-5">
+        <label for="nome">Nome: </label>
+        <input id="nome" type="text">
+
+        <label for="senha">Senha: </label>
+        <input id="senha" type="password">
+
+        <label for="nascimento">Data de Nascimento: </label>
+        <input id="nascimento" type="date">
+
+        <p class="mt-4">Quais são as suas linguagens preferidas? </p>
+
+        <div>
+            <input type="checkbox" id="python">
+            <label for="python">Python</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="c">
+            <label for="c">C#</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="javascript">
+            <label for="javascript">Javascript</label>
+        </div>
+
+        <p class="mt-4">Qual é a sua linguagem preferida? </p>
+
+        <div>
+            <input type="radio" name="linguagem" id="rpython">
+            <label for="python">Python</label>
+        </div>
+
+        <div>
+            <input type="radio" name="linguagem" id="rc">
+            <label for="c">C#</label>
+        </div>
+
+        <div>
+            <input type="radio" name="linguagem" id="rjavascript">
+            <label for="javascript">Javascript</label>
+        </div>
+
+    </form>
 </body>
 </html>
